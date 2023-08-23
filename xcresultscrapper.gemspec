@@ -10,10 +10,8 @@ Gem::Specification.new do |spec|
     spec.metadata["source_code_uri"] = "https://github.com/SergeyPetrachkov/XCResultScrapper"
     spec.metadata["homepage_uri"] = "https://github.com/SergeyPetrachkov/XCResultScrapper"
 
-    spec.files         = Dir.glob("{lib,bin,data}/**/*")
-    spec.bindir        = "bin"
-    spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
+    spec.executables   = ["bin/xcresultscrapper"]
+    spec.files         = ["bin/xcresultscrapper"]
 
-    spec.require_paths = ["lib"]
     spec.required_ruby_version = ">= 2.5"
 end
