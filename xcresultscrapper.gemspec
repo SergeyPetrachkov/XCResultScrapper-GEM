@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
     spec.name          = 'xcresultscrapper'
-    spec.version       = '0.1b'
+    spec.version       = '0.1.0b'
     spec.summary       = 'This is a Gem wrapper for xcresultscrapper'
     spec.description   = 'The tool parses xcresult and gives different types of reports'
     spec.license       = 'MIT'
@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
     spec.metadata["source_code_uri"] = "https://github.com/SergeyPetrachkov/XCResultScrapper"
     spec.metadata["homepage_uri"] = "https://github.com/SergeyPetrachkov/XCResultScrapper"
 
-    spec.executables   = ["bin/xcresultscrapper"]
+    spec.executables   = ["xcresultscrapper"]
     spec.files         = ["bin/xcresultscrapper"]
 
     spec.required_ruby_version = ">= 2.5"
