@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
     spec.name          = 'xcresultscrapper'
-    spec.version       = '0.1.0b'
+    spec.version       = '0.2b'
     spec.summary       = 'This is a Gem wrapper for xcresultscrapper'
     spec.description   = 'The tool parses xcresult and gives different types of reports'
     spec.license       = 'MIT'
